@@ -50,6 +50,7 @@ export default function App() {
                 })}
               </View>
 
+              {/* Likes Container */}
               <View style={styles.likesContainer}>
                 <Text
                   style={styles.likeText}
@@ -59,6 +60,7 @@ export default function App() {
                 </Text>
               </View>
 
+              {/* Botão "Curtir" */}
               <TouchableOpacity
                 style={styles.button}
                 onPress={() => handleLikeRepository(repo.id)}
